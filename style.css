@@ -1,21 +1,19 @@
-/* Write your code here: */
-/* group selector */
-h1, h2 {
-    color:blueviolet;
+/* Don't change the existing CSS. */
+#outer-box {
+  background-color: purple;
 }
-/* child selector */
-.box>p {
-    color:firebrick;
+.box {
+  background-color: blue;
+  padding: 10px;
 }
-/* descendant selector */
-.box li {
-    color:blue;
-} 
-/* chain selector */
-li.done{
-    color:seagreen;
+.inner-box {
+  background-color: red;
 }
-/* combining combiner selector */
-ul p.done {
-    font-size:0.5rem;
+p {
+  color: yellow;
+  margin: 0;
+  padding: 0;
+}
+.white-text {
+  color:white;
 }
